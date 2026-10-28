@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ShopKart (Chrome)",
+      "type": "dart",
+      "request": "launch",
+      "cwd": ".",
+      "program": "lib/main.dart",
+      "deviceId": "chrome",
+      "toolArgs": [
+        "--web-port", "3000",
+        "--dart-define=API_BASE_URL=http://localhost:5000/api"
+      ]
+    }
+  ]
+}
